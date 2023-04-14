@@ -1,4 +1,4 @@
-A resolução dos exercícios podem ser encontrada dentro da pasta <a href="https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Back-end/Exercicio1_POO/src">src</a>
+A resolução dos exercícios pode ser encontrada dentro da pasta <a href="https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Back-end/Exercicio1_POO/src">src</a>
 
 Academia Java 1-2023 <br>
 Exercícios Java OO <br>
