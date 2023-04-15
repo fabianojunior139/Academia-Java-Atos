@@ -1,3 +1,5 @@
+Lista dos exercícios resolvidos:
+
 1. Crie um arquivo HTML que imprima a mensagem "Hello, World!" no navegador.
 
 2. Na linha seguinte, abaixo da mensagem do exercício 1, exiba a frase: "Quando esta página da Web foi criada? Verifique o título da página para obter a resposta".
