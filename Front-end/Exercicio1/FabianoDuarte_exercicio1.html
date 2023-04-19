@@ -1,57 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>11/04/2023</title>
+    <title>11 de abril de 2023</title>
     <style>
         .container {
             max-width: 960px;
-            margin: 0 auto;
+            margin: auto;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-indent: 50px;
+        }
+
+        pre {
+            background-color: #F1F1F1;
+        }
+
+        figure {
+            margin: 0px;
+        }
+
+        figcaption {
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 990px) {
+            img {
+                width: 100%;
+            }
+        }
+
+        @media print {
+            h1 {
+                color: green !important;
+            }
         }
     </style>
 </head>
 
 <body>
-
     <div class="container">
-        <h1 style="color: blue; text-align: center;">Hello, World!</h1>
-
-        <h2>Quando esta página da Web foi criada? Verifique o <strong>título da página</strong> para obter a
-            <em>resposta</em></h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis sapiente ipsam iusto quod et ratione
-            accusamus adipisci exercitationem ex quo laborum, pariatur corrupti odit sequi atque placeat esse. Enim,
-            tempore.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore assumenda provident natus reprehenderit
-            dolorem laboriosam ad recusandae distinctio, doloremque ullam deserunt, est, vitae quam corrupti repellat.
-            Veniam dicta quia ex.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque at soluta, optio dicta ad ipsam
-            deleniti placeat possimus corporis ea ipsum voluptatem reprehenderit deserunt officia odio similique dolorem
-            consequuntur?</p>
-
+        <h1 style="text-align: center; color: blue;">Hello, World!</h1>
+        <h2>Quando esta página da Web foi criada?</h2>
+        <p>
+            Verifique o <strong>título da página</strong> para obter a
+            <em>resposta</em>.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia
+            quaerat in, laborum nam reprehenderit similique id quod neque, est
+            voluptatem ea tempore amet ab praesentium minus dicta aspernatur dolore?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            commodi amet esse quibusdam ullam consequatur velit dignissimos
+            voluptate cupiditate ea veritatis modi recusandae sint unde dicta, cum
+            soluta deserunt illo.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quidem
+            cumque. Reiciendis iste non a, ipsum culpa dignissimos, repellat nulla
+            cupiditate, expedita atque facere omnis ullam optio doloremque pariatur
+            harum?
+        </p>
         <h2>Os elementos HTML utilizados nesta página até agora foram:</h2>
-
         <ul>
-            <li>&ltdiv&gt</li>
-            <li>&lth1&gt</li>
-            <li>&lth2&gt</li>
-            <li>&ltp&gt</li>
-            <li>&ltul&gt</li>
-            <li>&ltli&gt</li>
+            <li>&lt;!DOCTYPE html&gt;</li>
+            <li>&lt;html&gt;</li>
+            <li>&lt;head&gt;</li>
+            <li>&lt;title&gt;</li>
+            <li>&lt;style&gt;</li>
+            <li>&lt;body&gt;</li>
+            <li>&lt;div&gt;</li>
+            <li>&lt;h1&gt;</li>
+            <li>&lt;h2&gt;</li>
+            <li>&lt;p&gt;</li>
         </ul>
-
-        <h3>O elemento &ltimg&gt</h3>
-
-        <p>Fazer resumo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas reprehenderit,
-            tempora, inventore odit et vitae expedita eveniet ut numquam corporis, suscipit dignissimos consequuntur
-            laboriosam ipsa fuga enim. Ullam, deleniti.</p>
-
+        <h3>O elemento &lt;img&gt;</h3>
+        <p>O elemento **HTML &lt;img&gt; **(or HTML Image Element) representa a inserção de imagem no documento, sendo
+            implementado também pelo HTML5 para uma melhor experiência com o elemento &lt;figure&gt; e
+            &lt;figcaption&gt;.</p>
+        <h4>Exemplo de uso</h4>
+        <pre>
+        <code>
+        &lt;figure&gt;
+            &lt;img src="imagem.jpg" alt="Minha Figura"&gt;
+            &lt;figcaption&gt;Informações da Figura&lt;/figcaption&gt;
+        &lt;/figure&gt;
+        </code>
+      </pre>
+        <figure>
+            <img src="programacao.jpg" alt="Ilustração de código HTML, CSS e Javascript" width="960">
+            <figcaption>Fonte: <a href="https://wall.alphacoders.com/big.php?i=430915&lang=Portuguese"
+                    target="_blank">Alphacoders</a>
+            </figcaption>
+        </figure>
     </div>
 </body>
 
 </html>
+
+
+
+INSERT INTO `oferta` (`codigo`, `codigoDisciplina`, `semestre`, `ano`, `nota`, `frequencia`, `aluno`, `professor`) VALUES
+(1, 1, 2019, 8.6, '90%', 1918023, '10120214450', 'CSI030'),
+(2, 1, 2019, 7.4, '95%', 1918142, '10120214450', 'CSI030'),
+(3, 1, 2019, 2.5, '50%', 1828201, '10120214450', 'CSI030'),
+(4, 1, 2019, 4.7, '75%', 1918142, '11040540330', 'CSI440'),
+(5, 1, 2019, 9.5, '100%', 1828201, '10560930210', 'CSI160'),
+(6, 1, 2019, 7.7, '82%', 1918023, '10010220470', 'CSI443'),
+(7, 2, 2019, 6, '90%', 1828201, '10432029020', 'CSI030'),
+(8, 2, 2019, 6.7, '85%', 1918142, '10190267390', 'CSI440'),
+(9, 2, 2019, 8.2, '92%', 1918023, '10560930210', 'CSI160'),
+(10, 2, 2019, 9, '100%', 1828201, '10010220470', 'CSI443');
