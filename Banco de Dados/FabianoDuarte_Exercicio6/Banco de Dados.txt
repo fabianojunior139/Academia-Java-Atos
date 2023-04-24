@@ -1,0 +1,177 @@
+CREATE TABLE public.livro
+(
+    "ISBN" character varying NOT NULL,
+    titulo character varying NOT NULL,
+    ano integer NOT NULL,
+    fk_editora integer NOT NULL,
+    fk_categoria integer NOT NULL,
+    PRIMARY KEY ("ISBN")
+);
+
+CREATE TABLE public.editora
+(
+    id_editora serial NOT NULL,
+    nome character varying NOT NULL,
+    PRIMARY KEY (id_editora)
+);
+
+CREATE TABLE public.categoria
+(
+    id_categoria serial NOT NULL,
+    nome character varying NOT NULL,
+    PRIMARY KEY (id_categoria)
+);
+
+CREATE TABLE public.autor
+(
+    id_autor serial NOT NULL,
+    nome character varying NOT NULL,
+    nacionalidade character varying NOT NULL,
+    PRIMARY KEY (id_autor)
+);
+
+CREATE TABLE public.livro_autor
+(
+    id_livro_autor serial NOT NULL,
+    "fk_ISBN" character varying NOT NULL,
+    fk_id_autor integer NOT NULL,
+    PRIMARY KEY (id_livro_autor)
+);
+
+ALTER TABLE IF EXISTS public.livro
+    ADD FOREIGN KEY (fk_editora)
+    REFERENCES public.editora (id_editora) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+ALTER TABLE IF EXISTS public.livro
+    ADD FOREIGN KEY (fk_categoria)
+    REFERENCES public.categoria (id_categoria) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+ALTER TABLE IF EXISTS public.livro_autor
+    ADD FOREIGN KEY ("fk_ISBN")
+    REFERENCES public.livro ("ISBN") MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+ALTER TABLE IF EXISTS public.livro_autor
+    ADD FOREIGN KEY (fk_id_autor)
+    REFERENCES public.autor (id_autor) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+INSERT INTO public.editora(nome) VALUES ('Rocco');
+INSERT INTO public.editora(nome) VALUES ('Wmf Martins Fontes');
+INSERT INTO public.editora(nome) VALUES ('Casa da Palavra');
+INSERT INTO public.editora(nome) VALUES ('Belas Letras');
+INSERT INTO public.editora(nome) VALUES ('Matrix');
+
+INSERT INTO public.categoria(nome) VALUES ('Literatura Juvenil');
+INSERT INTO public.categoria(nome) VALUES ('Ficção Científica');
+INSERT INTO public.categoria(nome) VALUES ('Humor');
+
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('J. K. Rowling', 'Inglaterra');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Clive Staples Lewis', 'Inglaterra');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Afonso Solano', 'Brasil');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Marcos Piangers', 'Brasil');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Ciro Botelho', 'Brasil');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Tiririca', 'Brasil');
+INSERT INTO public.autor(nome, nacionalidade) VALUES ('Bianca Mól', 'Brasil');
+
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('8532511015', 'Harry Potter e a Pedra Filosofal', 2000, 1, 1);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('9788578270698', 'As Crônicas de Nárnia', 2009, 2, 1);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('9788577343348', 'O Espadachim de Carvão', 2013, 3, 2);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('9788581742458', 'O Papai É POP', 2015, 4, 3);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('9788582302026', 'Pior Que Tá Não Fica', 2000, 5, 3);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('9788577345670', 'Garota Desdobrável', 2015, 3, 1);
+INSERT INTO public.livro("ISBN", titulo, ano, fk_editora, fk_categoria) VALUES ('8532512062', 'Harry Potter e o Prisionerio de Azkaban', 2000, 1, 1);
+
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('8532511015', 1);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788578270698', 2);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788577343348', 3);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788581742458', 4);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788582302026', 5);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788582302026', 6);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('9788577345670', 7);
+INSERT INTO public.livro_autor ("fk_ISBN", fk_id_autor) VALUES ('8532512062', 1);
+
+7. Query para relacionar todos os dados disponíveis do livro e ordenar pelo em ordem alfabética pelo título:
+
+SELECT l."ISBN", l.titulo, l.ano, e.nome as editora, a.nome as autor, a.nacionalidade as nacionalidade_autor, c.nome as categoria
+FROM livro l
+INNER JOIN editora e
+ON l.fk_editora = e.id_editora
+INNER JOIN categoria c
+ON l.fk_categoria = c.id_categoria
+INNER JOIN livro_autor la
+ON l."ISBN" = la."fk_ISBN"
+INNER JOIN autor a
+ON a.id_autor = la.fk_id_autor
+ORDER BY l.titulo ASC
+
+8. Crie uma consulta para relacionar todos os dados disponíveis de todos os livros existentes na biblioteca em ordem alfabética de Autor:  
+
+SELECT l."ISBN", l.titulo, l.ano, e.nome as editora, a.nome as autor, a.nacionalidade as nacionalidade_autor, c.nome as categoria
+FROM livro l
+INNER JOIN editora e
+ON l.fk_editora = e.id_editora
+INNER JOIN categoria c
+ON l.fk_categoria = c.id_categoria
+INNER JOIN livro_autor la
+ON l."ISBN" = la."fk_ISBN"
+INNER JOIN autor a
+ON a.id_autor = la.fk_id_autor
+ORDER BY a.nome ASC
+
+9. Crie uma consulta para relacionar todos os dados disponíveis dos livros de categoria de literatura juvenil em ordem de ano:
+
+SELECT l."ISBN", l.titulo, l.ano, e.nome as editora, a.nome as autor, a.nacionalidade as nacionalidade_autor, c.nome as categoria
+FROM livro l
+INNER JOIN editora e
+ON l.fk_editora = e.id_editora
+INNER JOIN categoria c
+ON l.fk_categoria = c.id_categoria
+INNER JOIN livro_autor la
+ON l."ISBN" = la."fk_ISBN"
+INNER JOIN autor a
+ON a.id_autor = la.fk_id_autor
+WHERE c.nome = 'Literatura Juvenil'
+ORDER BY l.ano ASC
+
+10. Crie uma consulta para relacionar todos os dados disponíveis dos livros de humor ou ficção cinetífica com ano entre 2000 e 2010: 
+
+SELECT l."ISBN", l.titulo, l.ano, e.nome as editora, a.nome as autor, a.nacionalidade as nacionalidade_autor, c.nome as categoria
+FROM livro l
+INNER JOIN editora e
+ON l.fk_editora = e.id_editora
+INNER JOIN categoria c
+ON l.fk_categoria = c.id_categoria
+INNER JOIN livro_autor la
+ON l."ISBN" = la."fk_ISBN"
+INNER JOIN autor a
+ON a.id_autor = la.fk_id_autor
+WHERE c.nome = 'Humor' or c.nome = 'Ficção Científica' AND l.ano BETWEEN 2000 and 2010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
