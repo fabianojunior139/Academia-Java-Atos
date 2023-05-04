@@ -1,0 +1,73 @@
+mai. 04, 2023 7:44:24 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:44:48 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:44:59 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:45:08 PM Debug.Principal main
+INFORMAÇÕES: O resultado da operação é: 0.0
+mai. 04, 2023 7:45:47 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:45:50 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:45:54 PM Debug.Principal main
+INFORMAÇÕES: O resultado da operação é: 5.0 e a calculadora foi encerrada!
+mai. 04, 2023 7:48:28 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:48:30 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:48:34 PM Debug.Principal main
+INFORMAÇÕES: 
+O resultado da operação é: 40.0 e a calculadora foi encerrada!
+mai. 04, 2023 7:48:41 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:48:44 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:48:48 PM Debug.Principal main
+INFORMAÇÕES: 
+O resultado da operação é: 40.0 e a calculadora foi encerrada!
+mai. 04, 2023 7:49:17 PM Debug.Principal main
+INFORMAÇÕES: 
+Calculadora iniciada!
+mai. 04, 2023 7:49:20 PM Debug.Principal main
+INFORMAÇÕES: 
+Operação - foi selecionada!
+mai. 04, 2023 7:49:37 PM Debug.Principal main
+INFORMAÇÕES: 
+O resultado da operação é: 5.0 e a calculadora foi encerrada!
+mai. 04, 2023 7:49:41 PM Debug.Principal main
+INFORMAÇÕES: 
+Calculadora iniciada!
+mai. 04, 2023 7:49:43 PM Debug.Principal main
+INFORMAÇÕES: 
+Operação - foi selecionada!
+mai. 04, 2023 7:49:57 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:51:48 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:52:18 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:52:31 PM Debug.Principal main
+INFORMAÇÕES: Calculadora iniciada!
+mai. 04, 2023 7:52:32 PM Debug.Principal main
+INFORMAÇÕES: Operação - foi selecionada!
+mai. 04, 2023 7:52:57 PM Debug.Principal main
+INFORMAÇÕES: 
+Calculadora iniciada!
+mai. 04, 2023 7:52:59 PM Debug.Principal main
+INFORMAÇÕES: 
+Operação - foi selecionada!
+mai. 04, 2023 7:53:04 PM Debug.Principal main
+INFORMAÇÕES: 
+O resultado da operação é: 30.0 e a calculadora foi encerrada!
+mai. 04, 2023 7:53:23 PM Debug.Principal main
+INFORMAÇÕES: 
+
+
+Calculadora iniciada!
+mai. 04, 2023 7:53:25 PM Debug.Principal main
+INFORMAÇÕES: 
+Operação - foi selecionada!
+mai. 04, 2023 7:53:28 PM Debug.Principal main
+INFORMAÇÕES: 
+O resultado da operação é: 30.0 e a calculadora foi encerrada!
