@@ -92,3 +92,31 @@ INFORMAÇÕES:
 Novo loop iniciado!
 mai. 04, 2023 7:09:06 PM TestaBancoDeDados main
 INFORMAÇÕES: Aplicação encerrada, e um total de 3 foram alteradas no banco de dados
+mai. 04, 2023 8:22:15 PM TestaBancoDeDados main
+INFORMAÇÕES: 
+
+Novo loop iniciado!
+mai. 04, 2023 8:22:21 PM TestaBancoDeDados main
+INFORMAÇÕES: 
+
+Novo loop iniciado!
+mai. 04, 2023 8:22:33 PM TestaBancoDeDados main
+INFORMAÇÕES: Usuário com fabiano adicionado a base de dados!
+mai. 04, 2023 8:22:33 PM TestaBancoDeDados main
+INFORMAÇÕES: 
+
+Novo loop iniciado!
+mai. 04, 2023 8:22:51 PM TestaBancoDeDados main
+INFORMAÇÕES: Usuário andre foi alterado na base de dados
+mai. 04, 2023 8:22:51 PM TestaBancoDeDados main
+INFORMAÇÕES: 
+
+Novo loop iniciado!
+mai. 04, 2023 8:22:59 PM TestaBancoDeDados main
+INFORMAÇÕES: Usuário com 35 foi excluído da base de dados
+mai. 04, 2023 8:22:59 PM TestaBancoDeDados main
+INFORMAÇÕES: 
+
+Novo loop iniciado!
+mai. 04, 2023 8:23:02 PM TestaBancoDeDados main
+INFORMAÇÕES: Aplicação encerrada, e um total de 3 foram alteradas no banco de dados
