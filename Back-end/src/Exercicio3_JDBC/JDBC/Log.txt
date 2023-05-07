@@ -120,3 +120,7 @@ INFORMAÇÕES:
 Novo loop iniciado!
 mai. 04, 2023 8:23:02 PM TestaBancoDeDados main
 INFORMAÇÕES: Aplicação encerrada, e um total de 3 foram alteradas no banco de dados
+mai. 05, 2023 4:13:17 PM TestaBancoDeDados main
+INFO: 
+
+Novo loop iniciado!
