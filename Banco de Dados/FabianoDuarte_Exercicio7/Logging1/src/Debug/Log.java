@@ -10,7 +10,6 @@ public class Log {
     public Logger logger;
     FileHandler fh;
 
-
     //Verifica se o arquivo de log já existe, senão o cria
     public Log(String nome_arquivo) throws IOException {
         File f = new File(nome_arquivo);
