@@ -124,3 +124,13 @@ mai. 05, 2023 4:13:17 PM TestaBancoDeDados main
 INFO: 
 
 Novo loop iniciado!
+mai. 13, 2023 12:12:31 AM TestaBancoDeDados main
+INFO: 
+
+Novo loop iniciado!
+mai. 13, 2023 12:12:33 AM TestaBancoDeDados main
+INFO: 
+
+Novo loop iniciado!
+mai. 13, 2023 12:12:36 AM TestaBancoDeDados main
+INFO: Aplicação encerrada, e um total de 0 foram alteradas no banco de dados

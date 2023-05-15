@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+:root {
+    --cor-branca: #fff;
+    --cor-preta: #000;
+    --cor-cinza-clara: #ddd;
+    --cor-laranja: rgb(241, 122, 30);
+    --cor-vermelha: rgb(217, 23, 29);
+    --cor-bege: rgb(215, 166, 61);
+    --cor-verde-claro: rgb(29, 201, 74);
+    --cor-azul-escuro: rgb(0, 97, 234);
+    --cor-azul-claro: rgb(63, 153, 243);
+    --cor-cinza: rgb(144, 130, 132);
+    --cor-roxa: rgb(186, 93, 237);
+    --cor-amarela: rgb(253, 207, 8);
+    --cor-verde-escura: rgb(30, 153, 4);
+    --cor-rosa: rgb(246, 83, 184);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.tabela {
+    border-spacing: 0.25rem;
+    margin: 0 auto;
+    margin: 1rem auto;
+    color: var(--cor-branca);
+}
+
+.titulo-tabela {
+    font-size: 2rem;
+    color: var(--cor-preta);
+}
+
+.elemento-vazio {
+    visibility: hidden;
+}
+
+.elemento {
+    border-radius: 0.25rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.elemento:hover {
+    opacity: 0.7;
+}
+
+.numero-atomico {
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.simbolo-quimico {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nome-elemento {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.peso-atomico {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.linha-divisao {
+    height: 1rem;
+}
+
+.laranja {
+    background-color: var(--cor-laranja);
+}
+
+.vermelho {
+    background-color: var(--cor-vermelha);
+}
+
+.bege {
+    background-color: var(--cor-bege);
+}
+
+.verde-claro {
+    background-color: var(--cor-verde-claro);
+}
+
+.azul-escuro {
+    background-color: var(--cor-azul-escuro);
+}
+
+.azul-claro {
+    background-color: var(--cor-azul-claro);
+}
+
+.cinza {
+    background-color: var(--cor-cinza);
+}
+
+.roxo {
+    background-color: var(--cor-roxa);
+}
+
+.amarelo {
+    background-color: var(--cor-amarela);
+}
+
+.verde-escuro {
+    background-color: var(--cor-verde-escura);
+}
+
+.rosa {
+    background-color: var(--cor-rosa);
+}
+
+.cinza-claro {
+    background-color: var(--cor-cinza-clara);
+}
+
+.icone-seta {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    transform: scale(var(--ggs, 1));
+    border-right: 2px solid;
+    margin: 0.5rem auto;
+}
+
+.icone-seta::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    bottom: 3px;
+    right: -3px;
+}
+
+.tabela-de-legendas {
+    width: 1510px;
+    border: 1px solid var(--cor-cinza-clara);
+    margin: 1rem auto;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.legenda-elemento-grande {
+    width: 33%;
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.legenda-elemento {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.legenda-numero-atomico {
+    font-size: 1.25rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.legenda-simbolo-quimico {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.legenda-nome-elemento {
+    font-size: 1.25rem;
+}
+
+.legenda-peso-atomico {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.linha1 {
+    position: absolute;
+    border-bottom: 1px solid var(--cor-preta);
+    width: 180px;
+    left: 50px;
+    top: 28px;
+    z-index: 1;
+}
+
+.linha2 {
+    position: absolute;
+    border-bottom: 1px solid var(--cor-preta);
+    width: 110px;
+    left: 120px;
+    top: 70px;
+    z-index: 1;
+}
+
+.linha3 {
+    position: absolute;
+    border-bottom: 1px solid var(--cor-preta);
+    width: 116px;
+    left: 116px;
+    top: 116px;
+    z-index: 1;
+}
+
+.linha4 {
+    position: absolute;
+    border-bottom: 1px solid var(--cor-preta);
+    width: 126px;
+    left: 106px;
+    top: 142px;
+    z-index: 1;
+}
+
+.posicionamento-numero-atomico {
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 16px;
+    left: 240px;
+    white-space: nowrap;
+}
+
+.posicionamento-simbolo-qumico {
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 56px;
+    left: 240px;
+    white-space: nowrap;
+}
+
+.posicionamento-nome {
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    white-space: nowrap;
+}
+
+.posicionamento-peso-atomico {
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 130px;
+    left: 240px;
+    white-space: nowrap;
+}
+
+.categoria-dos-elementos {
+    width: 67%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1rem;
+}
+
+.categoria {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.cor-da-categoria {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.tabela-mais-informacoes {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border: 1px solid var(--cor-cinza-clara);
+    text-align: center;
+}
+
+.tabela-mais-informacoes caption {
+    margin: 1rem;
+}
+
+.tabela-mais-informacoes th,
+tr,
+td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--cor-cinza-clara);
+}
+
+.tabela-mais-informacoes tr:hover {
+    background-color: var(--cor-cinza-clara);
+}
+
+.tabela-mais-informacoes td:first-child {
+    font-weight: 500;
+}
+
+@media screen and (max-height: 100vh) {
+
+}
