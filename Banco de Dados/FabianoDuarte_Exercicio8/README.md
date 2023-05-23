@@ -1,1 +1,11 @@
-![image](https://github.com/fabianojunior139/Academia-Java-Atos/assets/100708547/98324e3f-e640-4afa-8e62-e5193b27d082)
+# ⚙ Projeto JPA/Hibernate
+
+
+## 🧾 Proposta do projeto
+Criar um CRUD utilizando o JPA/Hibernate
+Utilizar as notações @ManyToOne e @ManyToMany
+
+## 🖥 O projeto
+O repositório com este exercício pode ser encontrado <a href="https://github.com/fabianojunior139/jpa-hibernate">aqui</a>
+
+
