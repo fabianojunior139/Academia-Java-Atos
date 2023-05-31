@@ -1,3 +1,11 @@
+Os aquivos com a resolução dos exercícios podem ser encontrados <a href="https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Back-end/Exercicio%201%20-%20Primeiros%20contatos%20com%20POO/Exercicio1_POO/src/Exercicios">AQUI!</a>
+<br><br>
+Ou podem ser encontrados no caminho: 
+
+```ts
+Exercicio1_POO > src/Exercicios 
+```
+
 Academia Java 1-2023 <br>
 Exercícios Java OO <br>
 Prof. Lucas A. Schlestein <br>
