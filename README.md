@@ -1,4 +1,4 @@
-# Academia-Java-Atos
+# ☕ 5° Academia Java Atos
 Neste repositório estarei guardando todos os exercícios feitos durante a 5° Academia Java oferecida pela Atos.
 
 <ul>
