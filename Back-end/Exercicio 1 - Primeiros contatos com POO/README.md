@@ -2,7 +2,7 @@ Academia Java 1-2023 <br>
 Exercícios Java OO <br>
 Prof. Lucas A. Schlestein <br>
 
-1 - Escreva uma classe, que represente uma Pessoa. As informações que devem estar contidas nessas classe, são: (nome, email, CPF). Atentar para os tipos de dados inerentes a cada informação. Ex. String email;
+1 - Escreva uma classe que represente uma Pessoa. As informações que devem estar contidas nessas classe, são: (nome, email, CPF). Atentar para os tipos de dados inerentes a cada informação. Ex. String email;
 
 
 2 - Tendo como base a Questão 1, crie um instância da classe, e preencha os atributos da mesma. Ex. Pessoa p = new Pessoa(); p.nome = “Pedro”;
