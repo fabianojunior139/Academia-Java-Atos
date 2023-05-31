@@ -1,0 +1,3 @@
+- [x] Exercício 1. Criar uma classe chamada Pessoa com 2 construtores, um que receba o nome e a idade da pessoa e outro recebendo apenas a idade. Solicite ao usuário qual dos construtores ele gostaria de utilizar na instanciação da classe. Além de receber parâmetros, os construtores imprimem na tela o conteúdo dos parâmetros recebidos.
+
+- [x] Exercício 2. Criar uma classe chamada Aluno com 3 construtores, sendo que o primeiro recebe o nome e a matrícula do aluno, o segundo recebe apenas a data de nascimento do aluno e o terceiro construtor recebe o nome do aluno, a data de nascimento e o ano em que o aluno ingressou na faculdade. Crie uma classe principal, com 3 objetos, cada um instanciando a classe com um construtor diferente.
