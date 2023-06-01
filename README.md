@@ -1,4 +1,4 @@
-# ☕ 5° Academia Java Atos
+# <p align="center">☕ 5° Academia Java Atos</p>
 Neste repositório estarei guardando todos os exercícios feitos durante a 5° Academia Java oferecida pela Atos.
 
 <ul>
