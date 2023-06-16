@@ -1,7 +1,7 @@
 # ⚙ Back-end 
 Neste repositório estarei guardando todos os exercícios sobre Back-end, conforme a lista abaixo: 
 
-|  N° | Projeto realizado utilizando Java no Back-end                                                                | Repositório |
+|  N° | Projetos realizados utilizando Java no Back-end                                                | Repositório |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
 | 1   | Primeiros contatos com POO | [Link para o repositório no GitHub](https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Back-end/Exercicio%201%20-%20Primeiros%20contatos%20com%20POO/Exercicio1_POO/src/Exercicios) |
 | 2   | Aprofundando em POO | [Link para o repositório no GitHub](https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Back-end/Exercicio%202%20-%20Aprofundando%20em%20POO/Exercicio2_POO_Slides/src/Exercicios) |
