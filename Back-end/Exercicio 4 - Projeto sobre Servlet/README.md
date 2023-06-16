@@ -2,6 +2,9 @@
 <p>Este repositório contém a resolução de um exercício que foi passado durante a 5° Academia de Java da Atos.</p>
 <p>O objetivo desta aplicação full stack é desenvolver um CRUD utilizando Servlets, JSP Tomcat e JDBC</p>
 
+## 🔗 Link
+O repositório com este exercício pode ser encontrado <a href="https://github.com/fabianojunior139/projeto-servlet">aqui</a>
+
 ## 🖥 Preview
 https://www.youtube.com/watch?v=rCCrZNhRu4s&ab_channel=FabianoJunior
 
@@ -29,11 +32,5 @@ git clone https://github.com/fabianojunior139/projeto-servlet.git
 
 ### 3° Passo - Abrir o projeto
 Agora basta abrir o projeto em sua IDE de preferência e baixar e configurar o <a href="https://tomcat.apache.org/download-90.cgi">Tomcat</a>, e por fim rodar o projeto.
-
-
-
-
-## 🔗 Link
-O repositório com este exercício pode ser encontrado <a href="https://github.com/fabianojunior139/projeto-servlet">aqui</a>
 
 
