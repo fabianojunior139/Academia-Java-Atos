@@ -1,5 +1,4 @@
 <h1 align="center">⚙ Servlets, Tomcat, JSP e JDBC</h1>
-<p>Este repositório contém a resolução de um exercício que foi passado durante a 5° Academia de Java da Atos.</p>
 <p>O objetivo desta aplicação full stack é desenvolver um CRUD utilizando Servlets, JSP Tomcat e JDBC</p>
 
 ## 🔗 Link
