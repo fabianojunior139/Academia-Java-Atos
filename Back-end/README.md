@@ -1,5 +1,5 @@
 # ⚙ Back-end 
-Neste repositório estarei guardando todos os exercícios sobre Back-end, entre eles estão exercícios utilizando: 
+Neste repositório estarei guardando todos os exercícios sobre Back-end, conforme a lista abaixo: 
 
 |  N° | Projeto realizado utilizando Java no Back-end                                                                | Repositório |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
