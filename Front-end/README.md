@@ -7,3 +7,4 @@ Neste repositório estarei guardando todos os exercícios sobre Front-end, entre
 | 2   | Desafio CSS | [Link para o repositório no GitHub](https://github.com/fabianojunior139/Academia-Java-Atos/tree/main/Front-end/Exercicio%202%20-%20Desafio%20CSS) |
 | 3   | Tabela periódica | [Link para o repositório no GitHub](https://github.com/fabianojunior139/tabela-periodica) |
 | 4   | Formulário Javascript | [Link para o repositório no GitHub](https://github.com/fabianojunior139/Formulario-javascript) |
+| 5   | Sleeper Game | [Link para o repositório no GitHub](https://github.com/fabianojunior139/Sleeper-game) |
